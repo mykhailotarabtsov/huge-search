@@ -34,6 +34,7 @@ form {
 
 input[type="search"] {
   -webkit-appearance: textfield;
+  -webkit-appearance: textfield;
   border: none;
   outline: none;
   background-color: transparent;
