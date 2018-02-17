@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+}
+
+:-moz-placeholder {
+  color: #c2c2c2;
+}
+::-moz-placeholder {
+  color: #c2c2c2;
+}
+:-ms-input-placeholder {
+  color: #c2c2c2;
+}
+::-webkit-input-placeholder {
+  color: #c2c2c2;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+  color: #c2c2c2;
+}
+
+form {
+  position: relative;
+}
+
+input[type="search"] {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  font-size: 3.5em;
+  color: #ec5a62;
+  width: 100%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+input[type="submit"] {
+  width: 40px;
+  height: 40px;
+  background-image: url('../img/magnifier.svg');
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.search-block {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.main-block {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0px;
+}
+
+section {
+  width: 30%;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+section:last-of-type {
+  margin-right: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  font-size: 0;
+}
+
+ul li {
+  display: inline-block;
+  width: 100%;
+  background-color: #ebebed;
+  margin-bottom: 5px;
+  padding: 15px 0 15px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+ul li:hover {
+  background-color: #e4e4e6;
+  color: #ec5a62;
+}
+
+li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+li span {
+  display: inline-block;
+  background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/TTOM5R7SFF.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+span.circle {
+  border-radius: 50%;
+}
