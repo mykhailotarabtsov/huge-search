@@ -33,7 +33,8 @@ form {
 }
 
 input[type="search"] {
-  border: 0;
+  -webkit-appearance: textfield;
+  border: none;
   outline: none;
   background-color: transparent;
   font-size: 3.5em;
