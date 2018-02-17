@@ -56,6 +56,13 @@ input[type="submit"] {
   right: 10px;
   top: 15px;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+input[type="submit"]:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .search-block {
@@ -73,6 +80,7 @@ section {
   width: 30%;
   display: inline-block;
   margin-right: 5%;
+  font-size: 16px;
 }
 
 section:last-of-type {
